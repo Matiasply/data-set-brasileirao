@@ -3,7 +3,7 @@ import requests
 def get_football_data(endpoint, params=None):
     url = f"https://v3.football.api-sports.io/{endpoint}"
     headers = {
-        "x-apisports-key": "800db00c1600661f9076b36f03350d8f"  # Substitua pela sua chave de API
+        "x-apisports-key": "800db00c1600661f9076b36f03350d8f"  # Ponha a sua chave de API
     }
     
     response = requests.get(url, headers=headers, params=params)
